@@ -1,0 +1,21 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "studies",
+  "main": "src/",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node-modules --respawn",
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ts-node-dev": "^2.0.0"
+  },
+  "author": "nicolas anaia",
+  "license": "MIT"
+}
